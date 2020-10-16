@@ -2,6 +2,23 @@
 
 /* Layout */
 
+main {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto 1fr 1fr;
+    gap: 10px;
+}
+
+#title {
+    grid-column: 1 / 4;
+    grid-row: 1;
+}
+
+#article1 {
+    grid-column: 1 / 4;
+    grid-row: 2;
+}
+
 
 /* Other Style */
 
