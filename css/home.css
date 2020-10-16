@@ -10,7 +10,7 @@ body {
 
 main {
     display: grid;
-    place-items: stretch;
+    place-items: center;
 }
 
 
