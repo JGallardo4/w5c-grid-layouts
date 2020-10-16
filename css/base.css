@@ -25,6 +25,12 @@ main {
     color: var(--dark);
 }
 
+main>* {
+    border-style: solid;
+    border-width: 5px;
+    border-color: var(--dark);
+}
+
 footer {
     background-color: var(--accent1);
 }
@@ -38,8 +44,16 @@ body {
 
 body>* {
     margin: 10px;
-    padding: 30px;
+    padding: 20px;
     border-radius: 10px;
+}
+
+main {
+    grid-gap: 10px;
+}
+
+main>* {
+    padding: 10px;
 }
 
 
