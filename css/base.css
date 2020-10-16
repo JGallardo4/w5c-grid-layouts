@@ -1,0 +1,49 @@
+@import "reset.css";
+
+/** Theme colors **/
+
+:root {
+    --dark: #241e1f;
+    --light: #f1f1f2;
+    --accent1: #9362a7;
+    --accent2: #f8951d;
+    --accent3: #91c143;
+}
+
+body {
+    color: var(--light);
+    background-color: var(--dark);
+}
+
+header {
+    background-color: var(--accent2);
+    color: var(--dark);
+}
+
+main {
+    background-color: var(--light);
+    color: var(--dark);
+}
+
+footer {
+    background-color: var(--accent1);
+}
+
+
+/* Layout */
+
+body {
+    height: 100vh;
+}
+
+body>* {
+    margin: 10px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+
+/* Other Style */
+
+
+/* Fonts */
