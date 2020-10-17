@@ -97,7 +97,7 @@ article h1 {
 
 p {
     font-family: 'Lucida Sans', Arial, sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 1.8;
     text-indent: 30px;
     margin: 0;
@@ -119,4 +119,8 @@ a:hover {
     line-height: 12px;
     letter-spacing: 1px;
     text-transform: uppercase;
+}
+
+footer {
+    font-size: 1em;
 }

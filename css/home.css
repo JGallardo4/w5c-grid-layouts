@@ -12,3 +12,7 @@ main {
     display: grid;
     place-items: center;
 }
+
+#title {
+    padding: 0.5%;
+}
